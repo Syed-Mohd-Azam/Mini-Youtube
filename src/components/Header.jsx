@@ -18,10 +18,10 @@ const Header = () => {
           <section className="flex justify-content items-center gap-0 border-2 rounded-e-full rounded-l-full p-2">
             <input
               type="text"
-              className="border-none w-96 rounded-2xl outline-none pl-1"
+              className="border-none w-96 rounded-2xl outline-none pl-3 tracking-wide text-lg"
               placeholder="Search"
             />
-            <article className="pr-1e">
+            <article className="pr-3">
               <img className="w-8 h-8" src={Search} alt="search" />
             </article>
           </section>
