@@ -1,9 +1,9 @@
-function App() {
+import Header from "./components/Header";
+const App = () => {
   return (
     <>
-      <h1 className="text-5xl text-red-600 align-middle">React </h1>
+      <Header />
     </>
   );
-}
-
+};
 export default App;
