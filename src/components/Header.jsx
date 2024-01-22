@@ -5,7 +5,7 @@ import Search from "../assets/search.png";
 const Header = () => {
   return (
     <>
-      <section className="grid grid-flow-col shadow-md p-3">
+      <section className="grid grid-flow-col shadow-sm p-3">
         <article className="flex gap-3 col-span-1  justify-start items-center px-2">
           <img
             className="w-8 h-8 hover:cursor-pointer pt-2"
