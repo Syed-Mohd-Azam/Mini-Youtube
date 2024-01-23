@@ -8,7 +8,7 @@ const Header = () => {
       <section className="grid grid-flow-col shadow-sm px-3 py-6 ">
         <article className="flex gap-3 col-span-1  justify-start items-center px-2">
           <img
-            className="w-8 h-8 hover:cursor-pointer pt-2"
+            className="w-12 h-12 hover:cursor-pointer p-2 hover:bg-purple-50  hover:rounded-full"
             src={Hamberger}
             alt="Hamberger-Menu-Icon"
           />
@@ -27,7 +27,11 @@ const Header = () => {
           </section>
         </article>
         <article className="col-span-1 flex justify-center">
-          <img className="w-12 h-12" src={UserIcon} alt="User-Icon" />
+          <img
+            className="w-12 h-12 p-2 hover:cursor-pointer hover:bg-purple-50 hover:rounded-full border-2 rounded-full"
+            src={UserIcon}
+            alt="User-Icon"
+          />
         </article>
       </section>
     </>
