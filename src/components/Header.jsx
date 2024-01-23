@@ -28,7 +28,7 @@ const Header = () => {
         </article>
         <article className="col-span-1 flex justify-center">
           <img
-            className="w-12 h-12 p-2 hover:cursor-pointer hover:bg-purple-50 hover:rounded-full border-2 rounded-full"
+            className="w-12 h-12 p-2 hover:cursor-pointer hover:bg-purple-50 hover:rounded-full hover:border-0 border-2 rounded-full"
             src={UserIcon}
             alt="User-Icon"
           />
