@@ -1,7 +1,7 @@
 const HalfSideBarSection = () => {
   return (
     <>
-      <>Half Side Bar</>
+      <section></section>
     </>
   );
 };
