@@ -2,12 +2,19 @@ import Hamberger from "../assets/Hamberger-menu-icon.png";
 import YoutubeIcon from "../assets/youtube.png";
 import UserIcon from "../assets/user-icon.jpg";
 import Search from "../assets/search.png";
+import { useDispatch } from "react-redux";
+import { toggleMenu } from "../utils/appSlice";
 const Header = () => {
+  const dispatch = useDispatch();
+  const toggleMenuHandler = () => {
+    dispatch(toggleMenu());
+  };
   return (
     <>
       <section className="grid grid-flow-col shadow-sm px-3 py-6 ">
         <article className="flex gap-3 col-span-1  justify-start items-center px-2">
           <img
+            onClick={toggleMenuHandler}
             className="w-12 h-12 hover:cursor-pointer p-2 hover:bg-purple-50  hover:rounded-full"
             src={Hamberger}
             alt="Hamberger-Menu-Icon"
