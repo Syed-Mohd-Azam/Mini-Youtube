@@ -3,8 +3,10 @@ import VideoContainer from "./VideoContainer";
 const MainContainer = () => {
   return (
     <>
-      <ButtonList />
-      <VideoContainer />
+      <section>
+        <ButtonList />
+        <VideoContainer />
+      </section>
     </>
   );
 };
