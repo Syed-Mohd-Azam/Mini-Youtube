@@ -4,7 +4,7 @@ import Subscription from "../assets/subscription.png";
 import Download from "../assets/download.png";
 import Channel from "../assets/channel.png";
 import History from "../assets/history.png";
-import Videos from "../assets/videos.png";
+import Videos from "../assets/videos.jpg";
 import Watch from "../assets/watch-later.png";
 const FullSideBarSection = () => {
   return (
