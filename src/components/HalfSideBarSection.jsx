@@ -8,16 +8,16 @@ const HalfSideBarSection = () => {
     <>
       <section className="flex  flex-col min-h-screen max-h-fit">
         <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1">
-          <img className="h-16 w-16" src={Home} alt="Home-Icon" />
+          <img className="h-20 w-20" src={Home} alt="Home-Icon" />
           <p className=" text-lg">Home</p>
         </article>
         <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1">
-          <img className="h-14 w-14 p-2" src={Shorts} alt="shorts" />
+          <img className="h-15 w-15 ml-5" src={Shorts} alt="shorts" />
           <p className=" text-lg">Shorts</p>
         </article>
         <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1 mb-1">
           <img
-            className="h-11 w-11 p-2 ml-2"
+            className="h-11 w-11 p-2 ml-5"
             src={Subscription}
             alt="subscriptions"
           />
