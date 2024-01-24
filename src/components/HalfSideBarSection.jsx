@@ -6,34 +6,30 @@ import Download from "../assets/Download.png";
 const HalfSideBarSection = () => {
   return (
     <>
-      <section className="flex  flex-col min-h-screen max-h-fit">
-        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1">
-          <img className="h-20 w-20" src={Home} alt="Home-Icon" />
+      <section className="flex  flex-col min-h-screen max-h-fit ">
+        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg ">
+          <img className="h-16 w-16" src={Home} alt="Home-Icon" />
           <p className=" text-lg">Home</p>
         </article>
-        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1">
-          <img className="h-15 w-15 ml-5" src={Shorts} alt="shorts" />
-          <p className=" text-lg">Shorts</p>
+        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg mb-6">
+          <img className="h-10 w-10 ml-3" src={Shorts} alt="shorts" />
+          <p className=" text-lg ml-3">Shorts</p>
         </article>
-        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1 mb-1">
+        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg mb-6 ">
           <img
-            className="h-11 w-11 p-2 ml-5"
+            className="h-8 w-8 ml-4"
             src={Subscription}
             alt="subscriptions"
           />
-          <p className=" text-lg ml-1">Subscriptions</p>
+          <p className=" text-lg ml-4">Subscriptions</p>
         </article>
-        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1 mb-1">
-          <img className="h-11 w-11 p-2 ml-2" src={You} alt="subscriptions" />
-          <p className="text-lg p-2">You</p>
+        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg mb-6">
+          <img className="h-7 w-7  ml-4" src={You} alt="subscriptions" />
+          <p className="text-lg ml-5">You</p>
         </article>
-        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1">
-          <img
-            className="h-11 w-11 p-2 ml-2"
-            src={Download}
-            alt="subscriptions"
-          />
-          <p className="text-lg p-2">Downloads</p>
+        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg mb-6">
+          <img className="h-6 w-6  ml-4" src={Download} alt="subscriptions" />
+          <p className="text-lg ml-5">Downloads</p>
         </article>
       </section>
     </>
