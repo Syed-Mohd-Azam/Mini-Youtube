@@ -56,6 +56,54 @@ const FullSideBarSection = () => {
             <p className="ml-2">Downloads</p>
           </article>
         </section>
+        <article className="border-b border-1 mt-1"></article>
+        <p className="mt-5 font-semibold ml-4 mb-5 text-lg">Explore</p>
+        <section>
+          <article className="flex gap-4 mb-1">
+            <img className="w-10 h-10" src={Download} alt="Trending-Image" />
+            <p className="ml-3">Trending</p>
+          </article>
+          <article className="flex gap-4 mb-1">
+            <img className="w-10 h-10" src={Download} alt="Shopping-Image" />
+            <p className="ml-3">Shopping</p>
+          </article>
+          <article className="flex gap-4 mb-1">
+            <img className="w-10 h-10" src={Download} alt="Music-Image" />
+            <p className="ml-3">Music</p>
+          </article>
+          <article className="flex gap-4 mb-1">
+            <img className="w-10 h-10" src={Download} alt="Movies-Image" />
+            <p className="ml-3">Movies</p>
+          </article>
+          <article className="flex gap-4 mb-1">
+            <img className="w-10 h-10" src={Download} alt="Live-Image" />
+            <p className="ml-3">Live</p>
+          </article>
+          <article className="flex gap-4 mb-1">
+            <img className="w-10 h-10" src={Download} alt="Gaming-Image" />
+            <p className="ml-3">Gaming</p>
+          </article>
+          <article className="flex gap-4 mb-1">
+            <img className="w-10 h-10" src={Download} alt="News-Image" />
+            <p className="ml-3">News</p>
+          </article>
+          <article className="flex gap-4 mb-1">
+            <img className="w-10 h-10" src={Download} alt="Sports-Image" />
+            <p className="ml-3">Sports</p>
+          </article>
+          <article className="flex gap-4 mb-1">
+            <img className="w-10 h-10" src={Download} alt="Learning-Image" />
+            <p className="ml-3">Learning</p>
+          </article>
+          <article className="flex gap-4 mb-1">
+            <img className="w-10 h-10" src={Download} alt="Fashion-Image" />
+            <p className="ml-3">Fashion-Beauty</p>
+          </article>
+          <article className="flex gap-4 mb-1">
+            <img className="w-10 h-10" src={Download} alt="Podcasts-Image" />
+            <p className="ml-3">Podcasts</p>
+          </article>
+        </section>
       </section>
     </>
   );
