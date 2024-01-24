@@ -32,24 +32,28 @@ const FullSideBarSection = () => {
         <p className="font-semibold ml-4 mt-4 text-lg mb-5">You {">"}</p>
         <section className="flex flex-col gap-3 p-2">
           <article className="flex gap-6 mb-1">
-            <img className="h-6 w-6" src={Channel} alt="Your-Channel-Image" />
-            <p>Your Channel</p>
+            <img
+              className="h-6 w-6 ml-1"
+              src={Channel}
+              alt="Your-Channel-Image"
+            />
+            <p className="ml-2">Your Channel</p>
           </article>
           <article className="flex gap-7 mb-2">
-            <img className="h-6 w-6" src={History} alt="History-Image" />
-            <p>History</p>
+            <img className="h-6 w-6 ml-1" src={History} alt="History-Image" />
+            <p className="ml-2">History</p>
           </article>
           <article className="flex gap-7 mb-2">
-            <img className="h-6 w-6" src={Videos} alt="Videos-Image" />
-            <p>Your Videos</p>
+            <img className="h-6 w-6 ml-1" src={Videos} alt="Videos-Image" />
+            <p className="ml-2">Your Videos</p>
           </article>
           <article className="flex gap-7 mb-2">
-            <img className="h-6 w-6" src={Watch} alt="Watch-Later-Image" />
-            <p>Watch later</p>
+            <img className="h-6 w-6 ml-1" src={Watch} alt="Watch-Later-Image" />
+            <p className="ml-2">Watch later</p>
           </article>
           <article className="flex gap-7 mb-2">
-            <img className="w-6 h-6" src={Download} alt="Download-Image" />
-            <p>Downloads</p>
+            <img className="w-6 h-6 ml-1" src={Download} alt="Download-Image" />
+            <p className="ml-2">Downloads</p>
           </article>
         </section>
       </section>
