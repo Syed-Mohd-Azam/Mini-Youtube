@@ -15,20 +15,24 @@ const HalfSideBarSection = () => {
           <img className="h-14 w-14 p-2" src={Shorts} alt="shorts" />
           <p className=" text-lg">Shorts</p>
         </article>
-        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1">
+        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1 mb-1">
           <img
-            className="h-11 w-11 p-2"
+            className="h-11 w-11 p-2 ml-2"
             src={Subscription}
             alt="subscriptions"
           />
-          <p className=" text-lg p-3">Subscriptions</p>
+          <p className=" text-lg ml-1">Subscriptions</p>
         </article>
-        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1">
-          <img className="h-11 w-11 p-2" src={You} alt="subscriptions" />
+        <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1 mb-1">
+          <img className="h-11 w-11 p-2 ml-2" src={You} alt="subscriptions" />
           <p className="text-lg p-2">You</p>
         </article>
         <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg py-1">
-          <img className="h-11 w-11 p-2" src={Download} alt="subscriptions" />
+          <img
+            className="h-11 w-11 p-2 ml-2"
+            src={Download}
+            alt="subscriptions"
+          />
           <p className="text-lg p-2">Downloads</p>
         </article>
       </section>
