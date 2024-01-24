@@ -6,6 +6,17 @@ import Channel from "../assets/channel.png";
 import History from "../assets/history.png";
 import Videos from "../assets/videos.jpg";
 import Watch from "../assets/watch-later.png";
+import Trending from "../assets/trending.png";
+import Shopping from "../assets/shopping.png";
+import Music from "../assets/music.png";
+import Movies from "../assets/movies.png";
+import Live from "../assets/live.png";
+import Gaming from "../assets/gaming.png";
+import News from "../assets/news.png";
+import Learning from "../assets/learning.png";
+import Sports from "../assets/shorts.png";
+import Podcast from "../assets/podcast.png";
+import Fashion from "../assets/fashion.png";
 const FullSideBarSection = () => {
   return (
     <>
@@ -58,50 +69,50 @@ const FullSideBarSection = () => {
         </section>
         <article className="border-b border-1 mt-1"></article>
         <p className="mt-5 font-semibold ml-4 mb-5 text-lg">Explore</p>
-        <section>
-          <article className="flex gap-4 mb-1">
-            <img className="w-10 h-10" src={Download} alt="Trending-Image" />
-            <p className="ml-3">Trending</p>
+        <section className="flex flex-col gap-3">
+          <article className="flex gap-4 mb-2">
+            <img className="w-6 h-6 ml-3" src={Trending} alt="Trending-Image" />
+            <p className="ml-5">Trending</p>
           </article>
-          <article className="flex gap-4 mb-1">
-            <img className="w-10 h-10" src={Download} alt="Shopping-Image" />
-            <p className="ml-3">Shopping</p>
+          <article className="flex gap-4 mb-2">
+            <img className="w-6 h-6 ml-3" src={Shopping} alt="Shopping-Image" />
+            <p className="ml-5">Shopping</p>
           </article>
-          <article className="flex gap-4 mb-1">
-            <img className="w-10 h-10" src={Download} alt="Music-Image" />
-            <p className="ml-3">Music</p>
+          <article className="flex gap-4 mb-2">
+            <img className="w-7 h-7 ml-3" src={Music} alt="Music-Image" />
+            <p className="ml-5">Music</p>
           </article>
-          <article className="flex gap-4 mb-1">
-            <img className="w-10 h-10" src={Download} alt="Movies-Image" />
-            <p className="ml-3">Movies</p>
+          <article className="flex gap-4 mb-2">
+            <img className="w-6 h-6 ml-3" src={Movies} alt="Movies-Image" />
+            <p className="ml-5">Movies</p>
           </article>
-          <article className="flex gap-4 mb-1">
-            <img className="w-10 h-10" src={Download} alt="Live-Image" />
-            <p className="ml-3">Live</p>
+          <article className="flex gap-4 mb-2">
+            <img className="w-6 h-6 ml-2" src={Live} alt="Live-Image" />
+            <p className="ml-6">Live</p>
           </article>
-          <article className="flex gap-4 mb-1">
-            <img className="w-10 h-10" src={Download} alt="Gaming-Image" />
-            <p className="ml-3">Gaming</p>
+          <article className="flex gap-4 mb-2">
+            <img className="w-6 h-6 ml-3" src={Gaming} alt="Gaming-Image" />
+            <p className="ml-5">Gaming</p>
           </article>
-          <article className="flex gap-4 mb-1">
-            <img className="w-10 h-10" src={Download} alt="News-Image" />
-            <p className="ml-3">News</p>
+          <article className="flex gap-4 mb-2">
+            <img className="w-6 h-6 ml-3" src={News} alt="News-Image" />
+            <p className="ml-5">News</p>
           </article>
-          <article className="flex gap-4 mb-1">
-            <img className="w-10 h-10" src={Download} alt="Sports-Image" />
+          <article className="flex gap-4 mb-2">
+            <img className="w-7 h-7 ml-3" src={Learning} alt="Sports-Image" />
+            <p className="ml-4">Learning</p>
+          </article>
+          <article className="flex gap-4 mb-2">
+            <img className="w-8 h-8 ml-3" src={Sports} alt="Learning-Image" />
             <p className="ml-3">Sports</p>
           </article>
-          <article className="flex gap-4 mb-1">
-            <img className="w-10 h-10" src={Download} alt="Learning-Image" />
-            <p className="ml-3">Learning</p>
+          <article className="flex gap-4 mb-2">
+            <img className="w-6 h-6 ml-3" src={Fashion} alt="Fashion-Image" />
+            <p className="ml-5">Fashion-Beauty</p>
           </article>
-          <article className="flex gap-4 mb-1">
-            <img className="w-10 h-10" src={Download} alt="Fashion-Image" />
-            <p className="ml-3">Fashion-Beauty</p>
-          </article>
-          <article className="flex gap-4 mb-1">
-            <img className="w-10 h-10" src={Download} alt="Podcasts-Image" />
-            <p className="ml-3">Podcasts</p>
+          <article className="flex gap-4 mb-2">
+            <img className="w-7 h-7 ml-3" src={Podcast} alt="Podcasts-Image" />
+            <p className="ml-5">Podcasts</p>
           </article>
         </section>
       </section>
