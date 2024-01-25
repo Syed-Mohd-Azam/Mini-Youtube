@@ -1,9 +1,15 @@
+/* eslint-disable react/prop-types */
 // eslint-disable-next-line react/prop-types
+import VideoCard from "./VideoCard";
 const VideosList = ({ videos }) => {
-  console.log(videos);
+  //   console.log(videos);
+  // eslint-disable-next-line react/prop-types
+  const { items } = videos;
   return (
     <>
-      <h1>Videos List</h1>
+      {items?.map((item) => (
+        <VideoCard key={item?.id} item={item} />
+      ))}
     </>
   );
 };

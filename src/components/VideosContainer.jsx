@@ -10,14 +10,9 @@ const VideosContainer = () => {
   const getVideos = async () => {
     const videosData = await fetch(API);
     const jsonData = await videosData.json();
-    console.log(jsonData);
+    // console.log(jsonData);
     setVideos(jsonData);
   };
-  return (
-    <>
-      {videos.length === 0 && <Shimmer />}
-      {videos.length > 0 && <VideosList videos={videos} />}
-    </>
-  );
+  return videos.length === 0 ? <Shimmer /> : <VideosList videos={videos} />;
 };
 export default VideosContainer;
