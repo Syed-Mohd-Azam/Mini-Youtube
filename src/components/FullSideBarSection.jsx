@@ -17,6 +17,14 @@ import Learning from "../assets/learning.png";
 import Sports from "../assets/shorts.png";
 import Podcast from "../assets/podcast.png";
 import Fashion from "../assets/fashion.png";
+import Kids from "../assets/kids - Copy.webp";
+import YoutubeMusic from "../assets/music-youtube - Copy.png";
+import Premium from "../assets/premium.png";
+import Studio from "../assets/studio.png";
+import FeedBack from "../assets/fedback.png";
+import Help from "../assets/help.png";
+import HistoryFlag from "../assets/history-flag.png";
+import Settings from "../assets/settings.png";
 const FullSideBarSection = () => {
   return (
     <>
@@ -115,6 +123,72 @@ const FullSideBarSection = () => {
             <p className="ml-5">Podcasts</p>
           </article>
         </section>
+        <section className="border-b border-1 mt-2 mb-4"></section>
+        <p className="font-semibold text-lg ml-3 mb-5">More from Youtube</p>
+        <section className="flex flex-col gap-4">
+          <section className="flex gap-4 mb-1">
+            <img className="h-5 w-5 ml-2" src={Premium} alt="Premium-Image" />
+            <p className="ml-3">YouTube Premium</p>
+          </section>
+          <section className="flex gap-4 mb-1">
+            <img className="h-7 w-7 ml-1" src={Studio} alt="Studio-Image" />
+            <p className="ml-3">YouTube Studio</p>
+          </section>
+          <section className="flex gap-4 mb-1">
+            <img
+              className="h-7 w-7 ml-1"
+              src={YoutubeMusic}
+              alt="Music-Image"
+            />
+            <p className="ml-3">YouTube Music</p>
+          </section>
+          <section className="flex gap-4 mb-1">
+            <img className="h-8 w-8 ml-1" src={Kids} alt="Kids-Image" />
+            <p className="ml-3">YouTube Kids</p>
+          </section>
+        </section>
+        <section className="border-b border-1 mt-4 mb-5"></section>
+        <section>
+          <article className="flex gap-6 mb-4">
+            <img className="h-7 w-7 ml-2" src={Settings} alt="Settings-Logo" />
+            <p className="ml-2">Settings</p>
+          </article>
+          <article className="flex gap-6 mb-4">
+            <img
+              className="h-7 w-7 ml-2"
+              src={HistoryFlag}
+              alt="History-Logo"
+            />
+            <p className="ml-2">Report History</p>
+          </article>
+          <article className="flex gap-6 mb-4">
+            <img className="h-7 w-7 ml-2" src={Help} alt="Help-Logo" />
+            <p className="ml-2">Help</p>
+          </article>
+          <article className="flex gap-6 mb-4">
+            <img className="h-6 w-6 ml-2" src={FeedBack} alt="Feedback-Logo" />
+            <p className="ml-2">Send Feedback</p>
+          </article>
+          <section className="border-b border-1 mt-6 mb-4"></section>
+          <section className="flex flex-wrap gap-x-2 gap-y-1 mb-1">
+            <p className="text-sm font-semibold">About</p>
+            <p className="text-sm font-semibold">Press</p>
+            <p className="text-sm font-semibold">Copyright</p>
+            <p className="text-sm font-semibold">Contact us</p>
+            <p className="text-sm font-semibold">Creators</p>
+            <p className="text-sm font-semibold">Advertise</p>
+            <p className="text-sm font-semibold">Developers</p>
+          </section>
+          <section className="flex flex-row flex-wrap gap-x-2 gap-y-1 mt-3 ">
+            <p className="text-sm font-semibold">Terms</p>
+            <p className="text-sm font-semibold">Privacy</p>
+            <p className="text-sm font-semibold">Policy-Safety</p>
+            <p className="text-sm font-semibold">How Youtube Works</p>
+            <p className="text-sm font-semibold">Test new features</p>
+          </section>
+        </section>
+        <p className="mt-4  italic text-sm ml-2">&#169; No copyright !!</p>
+        <p className="italic text-sm ml-2">Syed Mohd Azam</p>
       </section>
     </>
   );
