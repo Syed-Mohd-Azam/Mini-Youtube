@@ -17,9 +17,13 @@ const VideoCard = ({ item }) => {
     <>
       <section className="w-80 ">
         <article>
-          <img className="mb-2 rounded-2xl w-full h-48" src={url} alt="Video" />
+          <img
+            className="mb-2 rounded-2xl w-full h-48 hover:scale-90 hover:brightness-50"
+            src={url}
+            alt="Video"
+          />
         </article>
-        <article className="flex flex-col gap-2 p-3">
+        <article className="flex flex-col gap-2 p-3 bg-purple-50 h-32 rounded-2xl hover:scale-110">
           <article className="flex justify-between">
             <p className=" text-sm font-semibold">{channelTitle}</p>
             <p className="text-sm font-semibold">
