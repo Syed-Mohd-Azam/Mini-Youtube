@@ -171,24 +171,26 @@ const FullSideBarSection = () => {
           </article>
           <section className="border-b border-1 mt-6 mb-4"></section>
           <section className="flex flex-wrap gap-x-2 gap-y-1 mb-1">
-            <p className="text-sm font-semibold">About</p>
-            <p className="text-sm font-semibold">Press</p>
-            <p className="text-sm font-semibold">Copyright</p>
-            <p className="text-sm font-semibold">Contact us</p>
-            <p className="text-sm font-semibold">Creators</p>
-            <p className="text-sm font-semibold">Advertise</p>
-            <p className="text-sm font-semibold">Developers</p>
+            <p className="text-sm">About</p>
+            <p className="text-sm ">Press</p>
+            <p className="text-sm ">Copyright</p>
+            <p className="text-sm ">Contact us</p>
+            <p className="text-sm ">Creators</p>
+            <p className="text-sm ">Advertise</p>
+            <p className="text-sm ">Developers</p>
           </section>
           <section className="flex flex-row flex-wrap gap-x-2 gap-y-1 mt-3 ">
-            <p className="text-sm font-semibold">Terms</p>
-            <p className="text-sm font-semibold">Privacy</p>
-            <p className="text-sm font-semibold">Policy-Safety</p>
-            <p className="text-sm font-semibold">How Youtube Works</p>
-            <p className="text-sm font-semibold">Test new features</p>
+            <p className="text-sm ">Terms</p>
+            <p className="text-sm ">Privacy</p>
+            <p className="text-sm ">Policy-Safety</p>
+            <p className="text-sm ">How Youtube Works</p>
+            <p className="text-sm ">Test new features</p>
           </section>
         </section>
-        <p className="mt-4  italic text-sm ml-2">&#169; No copyright !!</p>
-        <p className="italic text-sm ml-2">Syed Mohd Azam</p>
+        <section className="border-b border-1 mt-5 mb-5"></section>
+        <p className="mt-4  italic text-normal ml-2 font-semibold">
+          &#169; Syed Mohd Azam !!
+        </p>
       </section>
     </>
   );
