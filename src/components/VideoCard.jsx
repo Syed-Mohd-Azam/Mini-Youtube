@@ -8,8 +8,28 @@ const VideoCard = ({ item }) => {
       thumbnails: {
         medium: { url },
       },
+      localized: { title },
+      channelTitle,
     },
+    statistics: { viewCount },
   } = item;
-  return <>VIDE0CARD </>;
+  return (
+    <>
+      <section className="w-80 ">
+        <article>
+          <img className="mb-2 rounded-2xl w-full h-48" src={url} alt="Video" />
+        </article>
+        <article className="flex flex-col gap-2 p-3">
+          <article className="flex justify-between">
+            <p className=" text-sm font-semibold">{channelTitle}</p>
+            <p className="text-sm font-semibold">
+              {(viewCount / 1000).toFixed(0)}k+ views
+            </p>
+          </article>
+          <p className="text-lg italic ">{title}</p>
+        </article>
+      </section>
+    </>
+  );
 };
 export default VideoCard;

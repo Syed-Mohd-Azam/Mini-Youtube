@@ -28,7 +28,7 @@ import Settings from "../assets/settings.png";
 const FullSideBarSection = () => {
   return (
     <>
-      <section className="min-h-screen max-h-fit ">
+      <section className="min-h-screen max-h-fit">
         <article className="flex flex-col gap-1">
           <article className="flex gap-2  items-center mb-1">
             <img className="h-14 w-14" src={Home} alt="Home-Logo" />

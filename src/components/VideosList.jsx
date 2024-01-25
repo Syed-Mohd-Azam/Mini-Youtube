@@ -7,9 +7,11 @@ const VideosList = ({ videos }) => {
   const { items } = videos;
   return (
     <>
-      {items?.map((item) => (
-        <VideoCard key={item?.id} item={item} />
-      ))}
+      <section className="flex flex-wrap gap-6 justify-center">
+        {items?.map((item) => (
+          <VideoCard key={item?.id} item={item} />
+        ))}
+      </section>
     </>
   );
 };

@@ -6,7 +6,7 @@ import Download from "../assets/Download.png";
 const HalfSideBarSection = () => {
   return (
     <>
-      <section className="flex  flex-col min-h-screen max-h-fit ">
+      <section className="flex flex-col min-h-screen max-h-fit ">
         <article className="flex justify-start gap-4 items-center hover:bg-purple-50 hover:rounded-lg ">
           <img className="h-16 w-16" src={Home} alt="Home-Icon" />
           <p className=" text-md">Home</p>
