@@ -25,15 +25,18 @@ import FeedBack from "../assets/fedback.png";
 import Help from "../assets/help.png";
 import HistoryFlag from "../assets/history-flag.png";
 import Settings from "../assets/settings.png";
+import { Link } from "react-router-dom";
 const FullSideBarSection = () => {
   return (
     <>
       <section className="min-h-screen max-h-fit">
         <article className="flex flex-col gap-1">
-          <article className="flex gap-2  items-center  hover:bg-purple-50 rounded-2xl hover:cursor-pointer">
-            <img className="h-14 w-14" src={Home} alt="Home-Logo" />
-            <p className="text-md pl-2 ">Home</p>
-          </article>
+          <Link to="/">
+            <article className="flex gap-2  items-center  hover:bg-purple-50 rounded-2xl hover:cursor-pointer">
+              <img className="h-14 w-14" src={Home} alt="Home-Logo" />
+              <p className="text-md pl-2 ">Home</p>
+            </article>
+          </Link>
           <article className="flex gap-8  items-center py-3 hover:bg-purple-50 rounded-2xl hover:cursor-pointer">
             <img className="h-8 w-8 ml-2" src={Shorts} alt="Shorts-Logo" />
             <p className="text-md ">Shorts</p>
