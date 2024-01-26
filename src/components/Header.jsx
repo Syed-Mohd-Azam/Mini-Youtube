@@ -20,7 +20,11 @@ const Header = () => {
             src={Hamberger}
             alt="Hamberger-Menu-Icon"
           />
-          <img className="w-24 " src={YoutubeIcon} alt="Youtube-Icon" />
+          <img
+            className="w-24 hover:cursor-pointer"
+            src={YoutubeIcon}
+            alt="Youtube-Icon"
+          />
         </article>
         <article className="col-span-10 flex justify-center items-center">
           <section className="flex justify-content items-center gap-0 border-2 rounded-e-full rounded-l-full p-2">
