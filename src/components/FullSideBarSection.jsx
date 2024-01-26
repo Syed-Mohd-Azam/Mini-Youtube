@@ -30,15 +30,15 @@ const FullSideBarSection = () => {
     <>
       <section className="min-h-screen max-h-fit">
         <article className="flex flex-col gap-1">
-          <article className="flex gap-2  items-center mb-1">
+          <article className="flex gap-2  items-center  hover:bg-purple-50 rounded-2xl hover:cursor-pointer">
             <img className="h-14 w-14" src={Home} alt="Home-Logo" />
             <p className="text-md pl-2 ">Home</p>
           </article>
-          <article className="flex gap-8  items-center mb-3">
+          <article className="flex gap-8  items-center py-3 hover:bg-purple-50 rounded-2xl hover:cursor-pointer">
             <img className="h-8 w-8 ml-2" src={Shorts} alt="Shorts-Logo" />
             <p className="text-md ">Shorts</p>
           </article>
-          <article className="flex gap-8  items-center">
+          <article className="flex gap-8  items-center hover:bg-purple-50 rounded-2xl py-3 hover:cursor-pointer">
             <img
               className="h-6 w-6 ml-3"
               src={Subscription}
@@ -48,112 +48,112 @@ const FullSideBarSection = () => {
           </article>
         </article>
         <article className="border-b border-1 mt-5"></article>
-        <p className="font-semibold ml-4 mt-4 text-lg mb-5">You {">"}</p>
-        <section className="flex flex-col gap-3 p-2">
-          <article className="flex gap-6 mb-1">
-            <img
-              className="h-6 w-6 ml-1"
-              src={Channel}
-              alt="Your-Channel-Image"
-            />
+        <p className="font-semibold ml-4 mt-4 text-lg mb-3">You {">"}</p>
+        <section className="flex flex-col  p-2">
+          <article className="flex gap-6 py-3 hover:bg-purple-50 rounded-2xl px-3 hover:cursor-pointer">
+            <img className="h-6 w-6 " src={Channel} alt="Your-Channel-Image" />
             <p className="ml-2">Your Channel</p>
           </article>
-          <article className="flex gap-7 mb-2">
-            <img className="h-6 w-6 ml-1" src={History} alt="History-Image" />
+          <article className="flex gap-7 py-3 px-3 hover:bg-purple-50 hover:rounded-2xl hover:cursor-pointer">
+            <img className="h-6 w-6 " src={History} alt="History-Image" />
             <p className="ml-2">History</p>
           </article>
-          <article className="flex gap-7 mb-2">
-            <img className="h-6 w-6 ml-1" src={Videos} alt="Videos-Image" />
-            <p className="ml-2">Your Videos</p>
+          <article className="flex gap-7 py-3 px-3 hover:bg-purple-50 hover:rounded-2xl hover:cursor-pointer">
+            <img className="h-6 w-6 " src={Videos} alt="Videos-Image" />
+            <p className="ml-1">Your Videos</p>
           </article>
-          <article className="flex gap-7 mb-2">
-            <img className="h-6 w-6 ml-1" src={Watch} alt="Watch-Later-Image" />
-            <p className="ml-2">Watch later</p>
+          <article className="flex gap-7 py-3 px-3 hover:bg-purple-50 hover:rounded-2xl hover:cursor-pointer">
+            <img className="h-6 w-6 " src={Watch} alt="Watch-Later-Image" />
+            <p className="ml-1">Watch later</p>
           </article>
-          <article className="flex gap-7 mb-2">
-            <img className="w-6 h-6 ml-1" src={Download} alt="Download-Image" />
-            <p className="ml-2">Downloads</p>
+          <article className="flex gap-7 py-3 px-3 hover:rounded-2xl hover:bg-purple-50 hover:cursor-pointer">
+            <img className="w-6 h-6 " src={Download} alt="Download-Image" />
+            <p className="ml-1">Downloads</p>
           </article>
         </section>
         <article className="border-b border-1 mt-1"></article>
         <p className="mt-5 font-semibold ml-4 mb-5 text-lg">Explore</p>
         <section className="flex flex-col gap-3">
-          <article className="flex gap-4 mb-2">
+          <article className="flex gap-4 py-2 px-3 hover:bg-purple-50 hover:rounded-xl hover:cursor-pointer">
             <img className="w-6 h-6 ml-3" src={Trending} alt="Trending-Image" />
-            <p className="ml-5">Trending</p>
+            <p className="ml-3">Trending</p>
           </article>
-          <article className="flex gap-4 mb-2">
+          <article className="flex gap-4 py-2 px-3 hover:bg-purple-50 hover:rounded-xl hover:cursor-pointer">
             <img className="w-6 h-6 ml-3" src={Shopping} alt="Shopping-Image" />
-            <p className="ml-5">Shopping</p>
+            <p className="ml-3">Shopping</p>
           </article>
-          <article className="flex gap-4 mb-2">
+          <article className="flex gap-4 py-2 px-3 hover:rounded-xl hover:bg-purple-50 hover:cursor-pointer">
             <img className="w-7 h-7 ml-3" src={Music} alt="Music-Image" />
-            <p className="ml-5">Music</p>
+            <p className="ml-3">Music</p>
           </article>
-          <article className="flex gap-4 mb-2">
+          <article className="flex gap-4 py-2 px-3 hover:bg-purple-50 hover:rounded-xl hover:cursor-pointer">
             <img className="w-6 h-6 ml-3" src={Movies} alt="Movies-Image" />
-            <p className="ml-5">Movies</p>
+            <p className="ml-4">Movies</p>
           </article>
-          <article className="flex gap-4 mb-2">
+          <article className="flex gap-4 py-2 px-3 hover:bg-purple-50 hover:rounded-xl hover:cursor-pointer">
             <img className="w-6 h-6 ml-2" src={Live} alt="Live-Image" />
-            <p className="ml-6">Live</p>
+            <p className="ml-5">Live</p>
           </article>
-          <article className="flex gap-4 mb-2">
+          <article className="flex gap-4 py-2 px-3 hover:rounded-xl hover:bg-purple-50 hover:cursor-pointer">
             <img className="w-6 h-6 ml-3" src={Gaming} alt="Gaming-Image" />
-            <p className="ml-5">Gaming</p>
+            <p className="ml-4">Gaming</p>
           </article>
-          <article className="flex gap-4 mb-2">
+          <article className="flex gap-4 px-2 py-3 hover:bg-purple-50 hover:rounded-xl hover:cursor-pointer">
             <img className="w-6 h-6 ml-3" src={News} alt="News-Image" />
             <p className="ml-5">News</p>
           </article>
-          <article className="flex gap-4 mb-2">
+          <article className="flex gap-4 py-2 px-3 hover:rounded-xl hover:bg-purple-50 hover:cursor-pointer">
             <img className="w-7 h-7 ml-3" src={Learning} alt="Sports-Image" />
-            <p className="ml-4">Learning</p>
+            <p className="ml-3">Learning</p>
           </article>
-          <article className="flex gap-4 mb-2">
+          <article className="flex gap-4 py-2 px-3 hover:bg-purple-50 hover:rounded-xl hover:cursor-pointer">
             <img className="w-8 h-8 ml-3" src={Sports} alt="Learning-Image" />
-            <p className="ml-3">Sports</p>
+            <p className="ml-2">Sports</p>
           </article>
-          <article className="flex gap-4 mb-2">
+          <article className="flex gap-4 px-3 py-2 hover:rounded-xl hover:bg-purple-50 hover:cursor-pointer">
             <img className="w-6 h-6 ml-3" src={Fashion} alt="Fashion-Image" />
-            <p className="ml-5">Fashion-Beauty</p>
+            <p className="ml-4">Fashion & Beauty</p>
           </article>
-          <article className="flex gap-4 mb-2">
+          <article className="flex gap-4 px-3 py-2 hover:rounded-xl hover:bg-purple-50 hover:cursor-pointer">
             <img className="w-7 h-7 ml-3" src={Podcast} alt="Podcasts-Image" />
-            <p className="ml-5">Podcasts</p>
+            <p className="ml-3 mb-4">Podcasts</p>
           </article>
         </section>
         <section className="border-b border-1 mt-2 mb-4"></section>
         <p className="font-semibold text-lg ml-3 mb-5">More from Youtube</p>
-        <section className="flex flex-col gap-4">
-          <section className="flex gap-4 mb-1">
-            <img className="h-5 w-5 ml-2" src={Premium} alt="Premium-Image" />
-            <p className="ml-3">YouTube Premium</p>
+        <section className="flex flex-col gap-1">
+          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-1 justify-center hover:cursor-pointer">
+            <img
+              className="h-5 w-5 ml-2 mt-1"
+              src={Premium}
+              alt="Premium-Image"
+            />
+            <p className="ml-2">YouTube Premium</p>
           </section>
-          <section className="flex gap-4 mb-1">
+          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-2 hover:cursor-pointer">
             <img className="h-7 w-7 ml-1" src={Studio} alt="Studio-Image" />
-            <p className="ml-3">YouTube Studio</p>
+            <p className="ml-1">YouTube Studio</p>
           </section>
-          <section className="flex gap-4 mb-1">
+          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-2 hover:cursor-pointer">
             <img
               className="h-7 w-7 ml-1"
               src={YoutubeMusic}
               alt="Music-Image"
             />
-            <p className="ml-3">YouTube Music</p>
+            <p className="ml-1">YouTube Music</p>
           </section>
-          <section className="flex gap-4 mb-1">
+          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-2 hover:cursor-pointer">
             <img className="h-8 w-8 ml-1" src={Kids} alt="Kids-Image" />
-            <p className="ml-3">YouTube Kids</p>
+            <p className="ml-1">YouTube Kids</p>
           </section>
         </section>
         <section className="border-b border-1 mt-4 mb-5"></section>
         <section>
-          <article className="flex gap-6 mb-4">
+          <article className="flex gap-6 py-3 px-1 hover:bg-purple-50 hover:rounded-2xl hover:cursor-pointer">
             <img className="h-7 w-7 ml-2" src={Settings} alt="Settings-Logo" />
             <p className="ml-2">Settings</p>
           </article>
-          <article className="flex gap-6 mb-4">
+          <article className="flex gap-6 py-3 px-1 hover:bg-purple-50 hover:rounded-2xl hover:cursor-pointer">
             <img
               className="h-7 w-7 ml-2"
               src={HistoryFlag}
@@ -161,11 +161,11 @@ const FullSideBarSection = () => {
             />
             <p className="ml-2">Report History</p>
           </article>
-          <article className="flex gap-6 mb-4">
+          <article className="flex gap-6 py-3 px-1 hover:bg-purple-50 hover:rounded-2xl hover:cursor-pointer">
             <img className="h-7 w-7 ml-2" src={Help} alt="Help-Logo" />
             <p className="ml-2">Help</p>
           </article>
-          <article className="flex gap-6 mb-4">
+          <article className="flex gap-6 py-3 px-1 hover:bg-purple-50 hover:rounded-2xl hover:cursor-pointer">
             <img className="h-6 w-6 ml-2" src={FeedBack} alt="Feedback-Logo" />
             <p className="ml-2">Send Feedback</p>
           </article>
