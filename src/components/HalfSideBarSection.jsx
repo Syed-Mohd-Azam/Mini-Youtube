@@ -2,7 +2,7 @@ import Home from "../assets/Home.png";
 import Shorts from "../assets/shorts.png";
 import Subscription from "../assets/subscription.png";
 import You from "../assets/You.png";
-import Download from "../assets/Download.png";
+import Download from "../assets/download.png";
 const HalfSideBarSection = () => {
   return (
     <>
