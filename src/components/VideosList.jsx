@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line react/prop-types
+import { Link } from "react-router-dom";
 import VideoCard from "./VideoCard";
 const VideosList = ({ videos }) => {
   //   console.log(videos);
@@ -9,7 +10,9 @@ const VideosList = ({ videos }) => {
     <>
       <section className="flex flex-wrap gap-6 justify-center">
         {items?.map((item) => (
-          <VideoCard key={item?.id} item={item} />
+          <Link key={item?.id} to={"/watch?v=" + item?.id}>
+            <VideoCard item={item} />
+          </Link>
         ))}
       </section>
     </>

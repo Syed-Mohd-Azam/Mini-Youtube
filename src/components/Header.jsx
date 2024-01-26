@@ -4,6 +4,7 @@ import UserIcon from "../assets/user-icon.jpg";
 import Search from "../assets/search.png";
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "../utils/appSlice";
+import { Link } from "react-router-dom";
 const Header = () => {
   const dispatch = useDispatch();
   const toggleMenuHandler = () => {

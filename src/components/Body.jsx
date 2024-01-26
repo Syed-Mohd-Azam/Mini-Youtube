@@ -1,4 +1,4 @@
-import MainContainer from "./MainContainer";
+import { Outlet } from "react-router-dom";
 import SideBar from "./SideBar";
 const Body = () => {
   return (
@@ -8,7 +8,7 @@ const Body = () => {
           <SideBar />
         </article>
         <article className="col-span-10 p-4">
-          <MainContainer />
+          <Outlet />
         </article>
       </section>
     </>
