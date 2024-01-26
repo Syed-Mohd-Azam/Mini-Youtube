@@ -30,7 +30,7 @@ const VideoCard = ({ item }) => {
               {(viewCount / 1000).toFixed(0)}k+ views
             </p>
           </article>
-          <p className="text-lg italic ">{title}</p>
+          <p className="text-md italic ">{title}</p>
         </article>
       </section>
     </>
