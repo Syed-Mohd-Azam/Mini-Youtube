@@ -7,5 +7,9 @@ const buttons = [
   "Movies",
   "Comedy",
   "TV Shows",
+  "Mixes",
+  "Hollywood Music",
+  "Football",
+  "Education",
 ];
 export default buttons;
