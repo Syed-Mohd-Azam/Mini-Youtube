@@ -13,7 +13,7 @@ const ButtonList = () => {
               chance={chance}
               key={index}
               button={button}
-              onClick={() => setChance(index)}
+              setChance={setChance}
             />
           ))}
         </article>
