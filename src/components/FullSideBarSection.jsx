@@ -29,7 +29,7 @@ import { Link } from "react-router-dom";
 const FullSideBarSection = () => {
   return (
     <>
-      <section className="min-h-screen max-h-fit">
+      <section className="min-h-screen max-h-fit ">
         <article className="flex flex-col gap-1">
           <Link to="/">
             <article className="flex gap-2  items-center  hover:bg-purple-50 rounded-2xl hover:cursor-pointer">
