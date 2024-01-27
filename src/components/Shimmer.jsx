@@ -1,7 +1,18 @@
+import Card from "./Card";
 const Shimmer = () => {
   return (
     <>
-      <h1>Shimmer</h1>
+      <section className="flex flex-row gap-4 flex-wrap justify-center">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </section>
     </>
   );
 };
