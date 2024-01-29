@@ -3,18 +3,18 @@ ReactTube is a feature-rich YouTube clone developed using cutting-edge web techn
 
 Key Features :
 
-1) - React Foundation :
+1 - React Foundation :
 React forms the backbone of ReactTube, providing a solid foundation for building modular and reusable components. This ensures a scalable and maintainable codebase.
 
-2)- Tailwind CSS Styling :
+2 - Tailwind CSS Styling :
 
 Tailwind CSS is employed for styling, utilizing a utility-first approach to create a visually appealing and responsive design. The framework's simplicity allows for swift styling adjustments while maintaining consistency throughout the application.
 
-3)- Seamless Navigation with React Router :
+3 - Seamless Navigation with React Router :
 
 React Router ensures smooth navigation within the application, allowing users to seamlessly transition between different sections. This enhances the overall user experience by providing intuitive navigation.
 
-4) - Efficient State Management using Redux Toolkit :
+4 - Efficient State Management using Redux Toolkit :
 
 Redux Toolkit is integrated for state management, offering a centralized store for handling the application's state. This ensures a predictable flow of data and simplifies complex interactions, especially crucial when dealing with dynamic content.
 
