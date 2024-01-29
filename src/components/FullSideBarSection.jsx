@@ -126,12 +126,8 @@ const FullSideBarSection = () => {
         <p className="font-semibold text-lg ml-3 mb-5">More from Youtube</p>
         <section className="flex flex-col gap-1">
           <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-1 justify-center hover:cursor-pointer">
-            <img
-              className="h-5 w-5 ml-2 mt-1"
-              src={Premium}
-              alt="Premium-Image"
-            />
-            <p className="ml-2">YouTube Premium</p>
+            <img className="h-6 w-6 ml-1 " src={Premium} alt="Premium-Image" />
+            <p className="ml-1">YouTube Premium</p>
           </section>
           <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-2 hover:cursor-pointer">
             <img className="h-7 w-7 ml-1" src={Studio} alt="Studio-Image" />
