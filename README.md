@@ -1,4 +1,4 @@
-ReactTube - A YouTube CloneReactTube - A YouTube Clone
+# ReactTube - A YouTube CloneReactTube - A YouTube Clone
 ReactTube is a feature-rich YouTube clone developed using cutting-edge web technologies. This project showcases a comprehensive set of skills in modern web development, incorporating React, Tailwind CSS, React Router, Redux Toolkit, and the YouTube API to deliver a dynamic and engaging user experience.
 
 Key Features :
