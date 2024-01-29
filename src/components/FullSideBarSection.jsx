@@ -19,7 +19,7 @@ import Podcast from "../assets/podcast.png";
 import Fashion from "../assets/fashion.png";
 import Kids from "../assets/kids - Copy.webp";
 import YoutubeMusic from "../assets/music-youtube - Copy.png";
-import Premium from "../assets/premium.png";
+import Premium from "../assets/premium.webp";
 import Studio from "../assets/studio.png";
 import FeedBack from "../assets/fedback.png";
 import Help from "../assets/help.png";
@@ -125,25 +125,21 @@ const FullSideBarSection = () => {
         <section className="border-b border-1 mt-2 mb-4"></section>
         <p className="font-semibold text-lg ml-3 mb-5">More from Youtube</p>
         <section className="flex flex-col gap-1">
-          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-1 justify-center hover:cursor-pointer">
-            <img className="h-6 w-6 ml-1 " src={Premium} alt="Premium-Image" />
-            <p className="ml-1">YouTube Premium</p>
+          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-1 hover:cursor-pointer justify-start">
+            {/* <img className="h-7 w-7  " src={Premium} alt="Premium-Image" /> */}
+            <p className="px-4">YouTube Premium</p>
           </section>
-          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-2 hover:cursor-pointer">
-            <img className="h-7 w-7 ml-1" src={Studio} alt="Studio-Image" />
-            <p className="ml-1">YouTube Studio</p>
+          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-2 hover:cursor-pointer justify-start">
+            {/* <img className="h-7 w-7 " src={Studio} alt="Studio-Image" /> */}
+            <p className="px-4">YouTube Studio</p>
           </section>
-          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-2 hover:cursor-pointer">
-            <img
-              className="h-7 w-7 ml-1"
-              src={YoutubeMusic}
-              alt="Music-Image"
-            />
-            <p className="ml-1">YouTube Music</p>
+          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-2 hover:cursor-pointer justify-start">
+            {/* <img className="h-7 w-7 " src={YoutubeMusic} alt="Music-Image" /> */}
+            <p className="px-4">YouTube Music</p>
           </section>
-          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-2 hover:cursor-pointer">
-            <img className="h-8 w-8 ml-1" src={Kids} alt="Kids-Image" />
-            <p className="ml-1">YouTube Kids</p>
+          <section className="flex gap-4 hover:bg-purple-50 hover:rounded-xl py-2 px-2 hover:cursor-pointer justify-start">
+            {/* <img className="h-8 w-8 ml-1" src={Kids} alt="Kids-Image" /> */}
+            <p className="px-4">YouTube Kids</p>
           </section>
         </section>
         <section className="border-b border-1 mt-4 mb-5"></section>
