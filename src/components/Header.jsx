@@ -4,6 +4,7 @@ import UserIcon from "../assets/user-icon.jpg";
 import Search from "../assets/search.png";
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "../utils/appSlice";
+import Profile from "../assets/Profile Image.jpeg";
 import { Link } from "react-router-dom";
 const Header = () => {
   const dispatch = useDispatch();
@@ -40,8 +41,8 @@ const Header = () => {
         </article>
         <article className="col-span-1 flex justify-center">
           <img
-            className="w-12 h-12 p-2 hover:cursor-pointer hover:bg-purple-50 hover:rounded-full hover:border-0 border-2 rounded-full"
-            src={UserIcon}
+            className="w-14 h-14 hover:cursor-pointer hover:bg-purple-50 hover:rounded-full hover:border-0 border-2 rounded-full"
+            src={Profile}
             alt="User-Icon"
           />
         </article>
