@@ -30,5 +30,5 @@ One of the standout features is the integration of the YouTube API, allowing Rea
 ## Skills:
 Node Package Manager · React Router V6 · Functional Component · Tailwind CSS · Youtube-API · VS Code · JavaScript · GitHub · React Hooks · JSX · Redux Toolkit · Vite · Netlify · Asynchronous JavaScript ( AJAX ) · ES6 
 ## Project Link
-Project Link : https://tangerine-sawine-d8fbd2.netlify.app/
+🎉Project Link : https://tangerine-sawine-d8fbd2.netlify.app/
 ## Happy Coding 🧡!!
